@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="76" height="10" tilewidth="63" tileheight="64">
+ <tileset firstgid="1" name="blocked" tilewidth="63" tileheight="64">
+  <image source="blocked.png" width="63" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="platform" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="lvl1bg" tilewidth="63" tileheight="64">
+  <image source="lvl1bg.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="6" name="Texture - Booster Forest 21" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 21.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="22" name="Texture - Booster Forest 26" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 26.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="38" name="Texture - Booster Forest 25" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 25.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="54" name="Texture - Booster Forest 01" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 01.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="70" name="Texture - Booster Forest 02" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 02.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="86" name="Texture - Booster Forest 04" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 04.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="90" name="Texture - Booster Forest 07" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 07.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="106" name="Texture - Booster Forest 09" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 09.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="122" name="lvl1bgleft" tilewidth="63" tileheight="64">
+  <image source="lvl1bgleft.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="126" name="lvl1bgtop" tilewidth="63" tileheight="64">
+  <image source="lvl1bgtop.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="130" name="lvl1bg90" tilewidth="63" tileheight="64">
+  <image source="lvl1bg90.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="134" name="Texture - Booster Forest 225" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 225.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="150" name="platform" tilewidth="63" tileheight="64">
+  <image source="platform.png" width="63" height="64"/>
+ </tileset>
+ <tileset firstgid="151" name="Texture - Booster Forest 19" tilewidth="63" tileheight="64">
+  <image source="textures/Texture - Booster Forest 19.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="167" name="Texture - Booster Forest 20" tilewidth="63" tileheight="64">
+  <image source="textures/Texture - Booster Forest 20.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="183" name="Texture - Booster Forest 09 new" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 09 new.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="199" name="Texture - Booster Forest 10 new 1" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 10 new 1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="215" name="Texture - Booster Forest 11 new" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 11 new.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="231" name="Texture - Booster Forest 21 new" tilewidth="63" tileheight="64">
+  <image source="Texture - Booster Forest 21 new.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="247" name="enemycollidableblock" tilewidth="63" tileheight="64">
+  <image source="enemycollidableblock.png" width="63" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="enemyCollidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="248" name="bottile" tilewidth="63" tileheight="64">
+  <image source="bottile.png" width="66" height="64"/>
+ </tileset>
+ <tileset firstgid="249" name="block" tilewidth="63" tileheight="64">
+  <image source="../../../block.png" width="63" height="64"/>
+ </tileset>
+ <layer name="collision layer" width="76" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMglEwEgDjEDef3oBa/mHEgocjoIa/sIXVcA0zfP7EFw7EYkLmUMseaps1UuKf1gAAq9ykL+ALAAA=
+  </data>
+ </layer>
+ <layer name="enemy collision" width="76" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TsQ0AAAQAQfsvrDUCErq7UkT1IgBgJpdzmLaRzW5357LB7579C98Kf762+uALAAA=
+  </data>
+ </layer>
+ <layer name="foregd" width="76" height="10" opacity="0.97">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA82V125TQRBAV0B+hVyT5CFIoVcJcBpNIqHzwGfQIfDOQyRIoQUSSqgyvQl4AqSIIuCVzndwRp7RHVZrgy0juNLRevfenfEcz11nIYQCtMNMmAaroR+6EmyGNt3TqvM5MBfmwXzoVFZBEXo1po2ytxkyvW9Yji2wtQ62wfaQX1LLdNgFu6vMK62n6s9c/e367Prf+CpEvhbAQlgEi52vblin8YQezTELWnT/3/Q1A5pgD+ytMq+0nqq/tUZfKX9LYCksg+XO1xpY6+biqyOU+7jZjea00b4OwQDsg/1V5vF6pj5S9dpv7X31qq9Ox5/4WgEr3Z6iOvL4/rJxA/SF/H1tlK/DcAQOwMEq83jdeihV/3jIz5JCyHut332u5LpLnZivYpQj5UuI+yuO+a/Pr9iFr38k5GeJ3d+ovvyethp8BeerlPBlfWXfy7z+L+eXdxHXfyr82l/ma1MFPylfwjW4ruNN9ZTqL4lvfWXfK/a1o0G+6j2/bJ6qdyKk+6sWXyXnKMZ+B/MlOay/Zjvf3tfOBvmq9/yyeareY3AchmAYzsBYKL+PvmdkPA8X4CJcStyXXj2tMSxO5nLYms8p7+0duAv34D5MwUN4BI91j+x9D6/hDbyFF/DSjcUEH+ETfIYvodwfY1rrUXilMWMPck6Nap23XY22fgJOhvL5LzGlv3yfSP9MwmW4AlfhFtxQzNc5F0NG+8+zHMPusziQ60HkR/Y+gafwTOdTWtc79fYBzkb5UtdX+Abf4Yc+Z7UOwnP1PaI5xvXeRBS/pPX+BHP7eD7gCwAA
+  </data>
+ </layer>
+ <layer name="variant" width="76" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ8HFAAA8GLq+e194AsAAA==
+  </data>
+ </layer>
+</map>

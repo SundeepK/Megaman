@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="12" height="10" tilewidth="63" tileheight="64">
+ <tileset firstgid="1" name="rock1" tilewidth="63" tileheight="64">
+  <image source="rock1.png" width="63" height="65"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="rock2" tilewidth="63" tileheight="64">
+  <image source="rock2.png" width="65" height="68"/>
+  <tile id="0">
+   <properties>
+    <property name="platform" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="12" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWkACYCfHz6YBiXODGYVAAAanLkROABAAA=
+  </data>
+ </layer>
+ <layer name="foreground" width="12" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWkAEYCfHz6kDEucUKYVAAA5tjnj+ABAAA=
+  </data>
+ </layer>
+</map>

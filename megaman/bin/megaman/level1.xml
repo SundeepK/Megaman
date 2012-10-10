@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<level>
+<player>
+	<collision_shape>
+		RECTANGLE
+	</collision_shape>
+	<collision_shape_data>
+		0,0,40,38
+	</collision_shape_data>
+	<position>
+	200,346
+	</position>
+	<animation_location>
+		res/idleman.png
+	</animation_location>
+	<animation_frame_data>
+		31,50,140
+	</animation_frame_data>
+</player>
+
+<enemy>
+	<enemy_type>
+	NORMAL
+	</enemy_type>
+	<collision_shape>
+		RECTANGLE
+	</collision_shape>
+	<collision_shape_data>
+		0,0,24,24
+	</collision_shape_data>
+	<position>
+		700,490
+	</position>
+	<left_animation animation_data="24,24,100">
+		res/normal1.png
+	</left_animation>
+	<right_animation animation_data="24,24,100">
+		res/enemyrightface.png
+	</right_animation>
+	<death_animation animation_data="40,48,80">
+		res/expl.png
+	</death_animation>
+	<idle_animation animation_data="40,48,80">
+		res/enemyrightface.png
+	</idle_animation>
+
+</enemy>
+
+<enemy>
+	<enemy_type>
+	NORMAL
+	</enemy_type>
+	<collision_shape>
+		RECTANGLE
+	</collision_shape>
+	<collision_shape_data>
+		0,0,24,24
+	</collision_shape_data>
+	<position>
+		600,490
+	</position>
+	<left_animation animation_data="24,24,100">
+		res/normal1.png
+	</left_animation>
+	<right_animation animation_data="24,24,100">
+		res/enemyrightface.png
+	</right_animation>
+	<death_animation animation_data="40,48,80">
+		res/expl.png
+	</death_animation>
+	<idle_animation animation_data="40,48,80">
+		res/enemyrightface.png
+	</idle_animation>
+
+</enemy>
+
+<enemy>
+	<enemy_type>
+	BRAWLER
+	</enemy_type>
+	<collision_shape>
+		RECTANGLE
+	</collision_shape>
+	<collision_shape_data>
+		0,0,35,68
+	</collision_shape_data>
+	<position>
+		1740,490
+	</position>
+	<left_animation animation_data="71,66,200">
+		res/tankenemywalkleft.png
+	</left_animation>
+	<right_animation animation_data="71,66,200">
+		res/tankenemywalk.png
+	</right_animation>
+	<death_animation animation_data="72,73,200">
+		res/expl.png
+	</death_animation>
+	<idle_animation animation_data="72,73,200">
+		res/tankenemy.png
+	</idle_animation>
+
+</enemy>
+
+<enemy>
+<!-- Zombie enemy -->
+	<enemy_type>
+	BRAWLER
+	</enemy_type>
+	<collision_shape>
+		RECTANGLE
+	</collision_shape>
+	<collision_shape_data>
+		0,0,35,50
+	</collision_shape_data>
+	<position>
+		1337,300
+	</position>
+	<left_animation animation_data="43,50,300">
+		res/zombiewalkleft.png
+	</left_animation>
+	<right_animation animation_data="61,50,300">
+		res/zombiewalkright.png
+	</right_animation>
+	<death_animation animation_data="42,50,100">
+		res/expl.png
+	</death_animation>
+	<idle_animation animation_data="50,57,300">
+		res/idlezombie.png
+	</idle_animation>
+</enemy>
+
+
+</level>

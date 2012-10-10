@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="4" height="4" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="bottile" tilewidth="16" tileheight="16">
+  <image source="bottile.png" width="66" height="64"/>
+ </tileset>
+ <tileset firstgid="17" name="col" tilewidth="16" tileheight="16">
+  <image source="col.png" width="24" height="25"/>
+ </tileset>
+ <layer name="col" width="4" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAxNkYGAQpAADAD+TA3lAAAAA
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="4" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAw3DiQ2AIBAAsBPkVcH9p6VNekVEMntbrDa7w+nj6+dy+3sATETlf0AAAAA=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="76" height="10" tilewidth="63" tileheight="64">
+ <tileset firstgid="1" name="blocked" tilewidth="63" tileheight="64">
+  <image source="blocked.png" width="63" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="platform" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="19bot" tilewidth="254" tileheight="128">
+  <image source="textures/19bot.png" width="254" height="128"/>
+ </tileset>
+ <tileset firstgid="3" name="19top" tilewidth="254" tileheight="128">
+  <image source="textures/19top.png" width="255" height="128"/>
+ </tileset>
+ <tileset firstgid="4" name="top20" tilewidth="255" tileheight="128">
+  <image source="textures/top20.png" width="255" height="128"/>
+ </tileset>
+ <tileset firstgid="5" name="bot20" tilewidth="254" tileheight="128">
+  <image source="textures/bot20.png" width="254" height="128"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="76" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAXDATBC8UgGjAyY4UBIbDTcsIcHITySwWh4EQ/whcdQDitauZOU9DRUwg5b+UsrO0hJY4MhvMgpS6hR/oyWYbgBqXmQgQEzjAZLmAEAuoMVw+ALAAA=
+  </data>
+ </layer>
+</map>
